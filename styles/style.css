@@ -18,6 +18,10 @@
     color: #474747;
  }
 
+ .dark-3{
+    color: #757575;
+ }
+
  .bg-secondary{
     background-color: #FFF8F3;
 
@@ -148,7 +152,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin: 100px 300px 130px 300px;
+    margin: 150px 300px 130px 300px;
     padding: 150px;
     background-color: #FFF8F3;
 }
@@ -176,6 +180,7 @@
 /*? what i do section  */
 
 .wid{
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -223,5 +228,107 @@
     }
 
     .wid-item{
+        
+    }
+
+
+
+    /*? resume section  */
+
+    .resume{
+        
+    }
+
+    
+    .resume-content{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .resume-header{
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom: 113px;
+        margin-top: 100px;
+    }
+
+    .resume-sub-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        width: 50%;
+        margin-left: -235px;
+       
+        
+    }
+
+    
+    
+
+    .resume-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 71px;
+    }
+
+    .edu{
+        width: 558px;
+        margin-bottom: 30px;
+    }
+
+    .exp{
+        width: 558px;
+        margin-bottom: 30px;
+    }
+
+    .edu h1{
+        font-size: 25px;
+        font-weight: bold;
+        color: #474747;
+        margin-bottom: 10px;
+    }
+
+    .edu h3{
+        margin-bottom: 20px;
+        color: #757575;
+    }
+
+    .exp h3{
+        margin-bottom: 20px;
+        color: #757575;
+    }
+
+    .edu p{
+        margin-bottom: 31px;
+        color: #757575;
+    }
+
+    .exp h1{
+        font-size: 25px;
+        font-weight: bold;
+        color: #474747;
+        margin-bottom: 10px;
+    }
+
+    .exp p{
+        margin-bottom: 31px;
+        color: #757575;
+    }
+
+    .edu-sec-2{
+        font-size: 30px;
+        font-weight: 800;
+       
+    }
+
+    .edu-sec-1{
+        font-size: 30px;
+        font-weight: 800;
+    
         
     }
